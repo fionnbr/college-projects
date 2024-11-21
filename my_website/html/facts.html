@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trainfreaks</title>
+</head>
+<header>
+    <div>
+        <h1>Trainfreaks.ie<h1>
+        <p>A website for all the crazy train freaks</p>
+    </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</header>
+<nav class="navbar">
+    <a href="../index.html">Home</a>
+    <a href="facts.html">Facts</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="videos.html">Videos</a>
+</nav>
+<body>
+    <section>
+        <h1><abbr title="Fun Train Facts">Facts</abbr></h1>
+            <details>
+            <summary><b>Cool train facts that you need to know:</b></summary>
+            <ul>
+                <li>You might be surprised to hear that the US has the largest railway network in the world, and by a large margin. With a total route length over 250,000km, it's two-and-a-half times longer than the second-largest network in China. It's the US freight rail network that makes up 80% of the staggering length while passenger rail, run by Amtrak, is comprised of more than 30 train routes connecting 500 destinations across 46 American states</li>
+                <br>
+                <li>Travelling at a mind-boggling speed, Shanghai's maglev (magnetic levitation) train is the fastest passenger train in the world. With a spine-tingling operational speed of 430km/h, the train connects Shanghai Pudong International Airport with Longyang Road Station in the outskirts of Pudong. Travelling at an average speed of 230km/h, the 30km journey can be completed within eight minutes.</li>
+                <br>
+                <li>The slowest express service in the world, Switzerland's Glacier Express takes a whooping eight hours to cover a distance of just 291km. That's because the scenic route takes in sights like Oberalp Pass, the highest point of the journey, and the Landwasser Viaduct, a six-arch bridge which stands at 65m and plunges straight into a tunnel that leads through the mountain. The day-long trip covers 91 tunnels, 291 bridges and offers the chance to take in stunning alpine meadows, mountain lakes and chalets. </li>
+                <br>
+                <li>The steepest cogwheel railway in the world, this train, ferrying passengers up to the summit of Mount Pilatus, is no mean feat. Reaching a maximum gradient of up to 48% it can be a challenging journey as it feels like the train is about to topple over at any second. The track's steep gradient is not its only spine-chilling feature. Clinging on to the mountainside, the train passes through tunnels carved into the mountain which open up to sweeping views of the surrounding landscape.</li>
+                <br>
+                <li>Crossing two continents, the incredible journey from Porto in Portugal to Singapore is the longest you could possibly do by train alone. Covering an approximate distance of 16,000km, the route leads from Porto to Warsaw in Poland before travelling east to Beijing in China. From there the journey turns south to Vietnam and reaches Singapore via Cambodia and Thailand. The full journey would take at least 12 days to complete.</li>
+                <br>
+                <li>Founded in 1758, the Middleton Railway in Leeds, England operates as a heritage railway today but it was originally opened to transport coal from the Middleton pits to Leeds, which led to the city becoming a centre for many developing industries. In 1812 it also became the first commercial railway to use steam locomotives successfully. Passenger services on the line didn't begin until 1969 and today visitors can still ride trains and visit the museum.</li>
+            </ul>
+        </details>
+    </section>
+    <br>
+    <br>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Sign up to ask a forum question:</label>
+        <input type="text" id="userName" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="083 304 4101">
+        </div>
+            <label for="inputPassword5" class="form-label">Password</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            <div id="passwordHelpBlock" class="form-text">
+            Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+        </div>
+        <button onclick="messageOutput()">Click here to sign in</button>
+        <h3 id="message"></h3>
+        <br>
+        <br>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Forum Question:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="dropdown" data-bs-theme="dark">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDark" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu 
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="Menu">
+        <li><a class="dropdown-item active" href="../index.html">Home</a></li>
+        <li><a class="dropdown-item" href="../html/facts.html">Facts</a></li>
+        <li><a class="dropdown-item" href="../html/gallery.html">Gallery</a></li>
+        <li><a class="dropdown-item" href="../html/videos.html">Videos</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="https://youtu.be/hAZX8Fgke58?si=DOiOyN3jYf0_WCHC">Cool Train Noise</a></li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../javascript/script.js"></script>
+    <br>
+    <br>
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <br>
+</body>
+<footer>
+    <p>©2023 Created by Fionn Brien</p>
+</footer>
+</html>

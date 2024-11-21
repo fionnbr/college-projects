@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "Testing",
+			"path": "../../../../Documents/PlatformIO/Projects/Testing"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stm32f031x6.h": "c",
+			"sound.h": "c",
+			"paths.h": "c",
+			"display.h": "c"
+		}
+	}
+}

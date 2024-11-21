@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trainfreaks</title>
+</head>
+<header>
+    <div>
+        <h1>Trainfreaks.ie<h1>
+        <p>A website for all the crazy train freaks</p>
+    </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</header>
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="../my_website/html/facts.html">Facts</a>
+    <a href="../my_website/html/gallery.html">Gallery</a>
+    <a href="../my_website/html/videos.html">Videos</a>
+</nav>
+<body>
+    <section>
+        <h1>Home</h1>
+        <p>Welcome, train fanatics!</p>
+        <table>
+            <tr>
+                <td>
+                    <img src="images/train1.jpg" alt="Image of a green train" width="200" height="150">
+                </td>
+                <td>
+                    <img src="images/train2.jpg" alt="Image of a black train" width="200" height="150">
+                </td>
+                <td>
+                    <img src="images/train3.jpg" alt="Image of a yellow train" width="200" height="150">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p>Crazy train news for you from all across the world. Big news 24/7, 365 days a year, every year. If something happens in the train world, we know.</p>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <details>
+            <summary>Click here for more info.</summary>
+            <p id = "ListParagraph">Why browse this site?</p>
+            <ol>
+                <li>Info on the latest and greatest trains.</li>
+                <li>Meet other train fans and discuss trains with them.</li>
+                <li>Detailed records on train history.</li>
+            </ol>
+        </details>
+        <br>
+        <br>
+        <a href="https://youtu.be/9Ptcd5O1i7E?si=uS1Yj22inEJ5Z-zS">
+            <button type = "button">
+                Click for horn!
+            </button>
+        </a>
+        <a href="https://www.youtube.com/watch?v=Gvocx2QfWEk">
+            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="Trains are cool">Click for Fun</button>
+        </a>
+        <br>
+        <br>
+    </section>
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182.19567528215222!2d-6.249690867591758!3d53.351521308982086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8eb3a58213%3A0x45bf0d7776670621!2sConnolly!5e0!3m2!1sen!2sie!4v1697120446112!5m2!1sen!2sie" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <br>
+    <br>
+    <div class="dropdown" data-bs-theme="dark">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonDark" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu 
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="Menu">
+        <li><a class="dropdown-item active" href="../my_website/index.html">Home</a></li>
+        <li><a class="dropdown-item" href="../my_website/html/facts.html">Facts</a></li>
+        <li><a class="dropdown-item" href="../my_website/html/gallery.html">Gallery</a></li>
+        <li><a class="dropdown-item" href="../my_website/html/videos.html">Videos</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="https://youtu.be/hAZX8Fgke58?si=DOiOyN3jYf0_WCHC">Cool Train Noise</a></li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <div class="spinner-border text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../my_website/javascript/script.js"></script>
+    <br>
+    <br>
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <br>
+</body>
+<footer>
+    <p>©2023 Created by Fionn Brien</p>
+</footer>
+</html>
